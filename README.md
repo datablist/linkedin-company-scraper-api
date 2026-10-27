@@ -10,6 +10,14 @@ workflows with a few API calls.
 
 [View the API schema](https://api.datablist.com/v1/enrichments/linkedin-company-enrichment).
 
+## Cost
+
+**25 credits per company page scraped.**
+
+Costs are in Datablist credits. Each result reports its actual `creditsUsed`.
+See the [API cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-company-enrichment#credits-and-limits)
+and [credit pack pricing](https://www.datablist.com/pricing) for current rates.
+
 ## Get started
 
 Choose [Python](python/README.md) or [TypeScript](typescript/README.md).
@@ -34,11 +42,6 @@ npx tsx typescript/example.ts
 
 With Node.js 24.3 or newer, you can also run `node typescript/example.ts` directly.
 Run each command block from the repository root.
-
-Calls use account credits. See the current
-[credit cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-company-enrichment#credits-and-limits)
-and [pricing](https://www.datablist.com/pricing). Each result reports its actual
-`creditsUsed`.
 
 ## Input and output
 
@@ -131,9 +134,7 @@ ID below with your company's ID:
 }
 ```
 
-You can use either URL format in the scripts' editable company lists. Numeric-ID
-lookups can have different credit costs; see the
-[API pricing details](https://platform.datablist.com/docs/enrichments/tools/linkedin-company-enrichment#credits-and-limits).
+You can use either URL format in the scripts' editable company lists.
 Use company page URLs rather than personal profile URLs. If you start with a
 domain or website, first use the
 [Company to LinkedIn API](https://platform.datablist.com/docs/enrichments/tools/company-to-linkedin)
