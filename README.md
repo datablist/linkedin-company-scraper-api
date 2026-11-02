@@ -1,7 +1,8 @@
 # LinkedIn Company Scraper API
 
 Retrieve company details from LinkedIn company page URLs with the
-[Datablist](https://www.datablist.com/) LinkedIn Company Scraper API.
+Datablist
+[LinkedIn Company Scraper API](https://www.datablist.com/apis/linkedin-company-enrichment).
 
 Build targeted B2B prospect lists from LinkedIn company pages. Qualify accounts
 by industry, company size, and location, then use company descriptions to
@@ -12,7 +13,10 @@ workflows with a few API calls.
 
 ## Cost
 
-**25 credits per company page scraped.**
+The base cost is **$1 for 1,000 credits** ($0.001 per credit, in USD).
+Larger top-up packages reduce the price per credit and per record.
+
+**25 credits ($0.025) per company page scraped.**
 
 Costs are in Datablist credits. Each result reports its actual `creditsUsed`.
 See the [API cost and limits](https://platform.datablist.com/docs/enrichments/tools/linkedin-company-enrichment#credits-and-limits)
@@ -212,3 +216,4 @@ limits. These examples do not batch larger lists.
 - [Waterfall Email Finder API](https://github.com/datablist/waterfall-email-finder-api): find work emails from names and companies or LinkedIn URLs.
 - [Waterfall Phone Finder API](https://github.com/datablist/waterfall-phone-finder-api): find phone numbers from LinkedIn profile URLs.
 - [Waterfall Personal Email Finder API](https://github.com/datablist/waterfall-personal-email-finder-api): find personal email addresses from LinkedIn profile URLs.
+- [Instagram Followers Scraper API](https://github.com/datablist/instagram-followers-scraper-api): scrape followers or following lists from Instagram profiles.
